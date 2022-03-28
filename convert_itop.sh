@@ -1,0 +1,1 @@
+winpty python3 convert_itop_coco.py --input_path="C:/pic/vizta/src/itop/" --output_path="C:/pic/vizta/dst/itop/" --coef_train_val=8 --enable_height_conversion

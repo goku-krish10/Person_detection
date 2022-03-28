@@ -1,0 +1,1 @@
+srun -K --container-image=/netscratch/enroot/dlcc_pytorch_20.10.sqsh --container-workdir=`pwd` --container-mounts=/netscratch:/netscratch -p GTX1080Ti --gpus=4 --cpus-per-gpu=2 -N1 --mem=32768 --job-name="YOLACT training" ./run_train.sh

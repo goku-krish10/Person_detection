@@ -1,0 +1,1 @@
+srun -K --container-image=/netscratch/anisimov/dlcc_pytorch_20.10.sqsh --container-workdir=`pwd` --container-mounts=/netscratch:/netscratch -p batch --gpus=1 --cpus-per-gpu=2 --job-name="YOLACT detection (TensorRT)" ./run_detect_trt.sh
